@@ -1,0 +1,28 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+
+# nc: 2
+# names: ['bone-cancer', 'normal']
+
+# roboflow:
+#   workspace: rubi-3bt5l
+#   project: bonemanso-mmzow
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/rubi-3bt5l/bonemanso-mmzow/dataset/3
+
+train: C:/Users/ruban/Documents/Bone_Tumor_project/train/images
+val: C:/Users/ruban/Documents/Bone_Tumor_project/valid/images
+test: C:/Users/ruban/Documents/Bone_Tumor_project/test/images
+
+nc: 2
+names: ['bone-cancer', 'normal']
+
+roboflow:
+  workspace: rubi-3bt5l
+  project: bonemanso-mmzow
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rubi-3bt5l/bonemanso-mmzow/dataset/3
+
